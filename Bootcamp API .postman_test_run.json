@@ -1,0 +1,724 @@
+{
+	"id": "79297637-86bd-4855-bec1-17255ca4c53b",
+	"name": "Bootcamp API ",
+	"timestamp": "2024-10-31T09:28:37.775Z",
+	"collection_id": "39393494-907da871-f6fd-4c77-99d1-87edd750dbbf",
+	"folder_id": 0,
+	"environment_id": "39393494-ed88eb2e-bb5a-4c62-8699-e13df05ad3f6",
+	"totalPass": 225,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-31T09:28:19.576Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4d5849d4-949d-4887-96e9-dfb5daf5c8a5",
+			"name": "List users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"correct page data": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 15,
+					"fail": 0
+				},
+				"correct page data": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				250,
+				69,
+				66,
+				70,
+				70,
+				73,
+				74,
+				69,
+				67,
+				71,
+				79,
+				120,
+				75,
+				64,
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"correct page data": true
+				}
+			]
+		},
+		{
+			"id": "1875daa6-94d1-49c2-9795-266b0c4a4026",
+			"name": "List a single user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Users is listed successfully": true,
+				"Response time is less than 1 second": true,
+				"user's id": true
+			},
+			"testPassFailCounts": {
+				"Users is listed successfully": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1 second": {
+					"pass": 15,
+					"fail": 0
+				},
+				"user's id": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				73,
+				83,
+				69,
+				67,
+				71,
+				63,
+				74,
+				65,
+				63,
+				67,
+				122,
+				97,
+				73,
+				65,
+				63
+			],
+			"allTests": [
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				},
+				{
+					"Users is listed successfully": true,
+					"Response time is less than 1 second": true,
+					"user's id": true
+				}
+			]
+		},
+		{
+			"id": "7f70e2e8-8a62-4c6d-b1e8-d657b9792d0f",
+			"name": "Single user not found",
+			"url": "https://reqres.in/api/users/23",
+			"time": 60,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				151,
+				71,
+				84,
+				66,
+				81,
+				68,
+				65,
+				66,
+				64,
+				73,
+				79,
+				68,
+				139,
+				82,
+				60
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 404": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "25fde960-963b-460d-b6c0-b41773e10f24",
+			"name": "Create User",
+			"url": "https://reqres.in/api/users",
+			"time": 152,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"User created successfully": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"User created successfully": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				135,
+				144,
+				137,
+				140,
+				155,
+				158,
+				148,
+				145,
+				136,
+				130,
+				187,
+				154,
+				187,
+				125,
+				152
+			],
+			"allTests": [
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"User created successfully": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "17cc4f1c-2e01-4919-9e00-3d18fffaf23b",
+			"name": "Erase user and create new one",
+			"url": "https://reqres.in/api/users/2",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				171,
+				139,
+				165,
+				157,
+				146,
+				139,
+				134,
+				159,
+				129,
+				174,
+				188,
+				218,
+				168,
+				146,
+				171
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "314bb487-43a3-402c-a9e7-22134f47c195",
+			"name": "Delete User",
+			"url": "https://reqres.in/api/users/2",
+			"time": 175,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				128,
+				134,
+				130,
+				146,
+				127,
+				150,
+				163,
+				132,
+				152,
+				178,
+				153,
+				168,
+				153,
+				133,
+				175
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 15,
+	"totalTime": 10480,
+	"collection": {
+		"requests": [
+			{
+				"id": "4d5849d4-949d-4887-96e9-dfb5daf5c8a5",
+				"method": "GET"
+			},
+			{
+				"id": "1875daa6-94d1-49c2-9795-266b0c4a4026",
+				"method": "GET"
+			},
+			{
+				"id": "7f70e2e8-8a62-4c6d-b1e8-d657b9792d0f",
+				"method": "GET"
+			},
+			{
+				"id": "25fde960-963b-460d-b6c0-b41773e10f24",
+				"method": "POST"
+			},
+			{
+				"id": "17cc4f1c-2e01-4919-9e00-3d18fffaf23b",
+				"method": "PUT"
+			},
+			{
+				"id": "314bb487-43a3-402c-a9e7-22134f47c195",
+				"method": "DELETE"
+			}
+		]
+	}
+}
